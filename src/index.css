@@ -103,7 +103,7 @@
 
 /* ─── Globals ─── */
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto; /* Lenis handles smooth scroll */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -114,6 +114,11 @@ body {
   font-family: "Visia Pro", sans-serif;
   background-color: #fafafa;
   color: #121212;
+  cursor: none;
+}
+
+a, button, input, textarea, select, [role="button"] {
+  cursor: none;
 }
 
 ::selection {
