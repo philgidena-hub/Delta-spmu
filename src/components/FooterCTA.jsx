@@ -130,27 +130,6 @@ export default function FooterCTA() {
               </p>
             </div>
 
-            {/* Center — Portal Links */}
-            <div className="flex items-center gap-8">
-              <a
-                href="https://learn.afritutors.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-body text-[12px] font-light uppercase tracking-wide text-white/40 transition-colors duration-300 hover:text-nude"
-              >
-                Student Portal
-              </a>
-              <div className="h-3 w-[1px] bg-white/10" />
-              <a
-                href="https://admin.afritutors.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-body text-[12px] font-light uppercase tracking-wide text-white/40 transition-colors duration-300 hover:text-nude"
-              >
-                Admin Portal
-              </a>
-            </div>
-
             {/* Right — Back to top */}
             <button
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
