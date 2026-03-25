@@ -1,0 +1,12 @@
+/* Webfont: Wensley-Regular */@font-face {
+    font-family: 'Wensley';
+    src: url('Wensley-Regular.eot'); /* IE9 Compat Modes */
+    src: url('Wensley-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Wensley-Regular.woff') format('woff'), /* Modern Browsers */
+         url('Wensley-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Wensley-Regular.svg#Wensley-Regular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

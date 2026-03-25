@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Wensley (Heading) ─── */
+@font-face {
+  font-family: "Wensley";
+  src: url("/fonts/Wensley-Light.woff") format("woff"),
+       url("/fonts/Wensley-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Wensley";
+  src: url("/fonts/Wensley-Regular.woff") format("woff"),
+       url("/fonts/Wensley-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Wensley";
+  src: url("/fonts/Wensley-Bold.woff") format("woff"),
+       url("/fonts/Wensley-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ─── Visia Pro (Body) ─── */
+@font-face {
+  font-family: "Visia Pro";
+  src: url("/fonts/VisiaPro-ExtraLight.woff2") format("woff2"),
+       url("/fonts/VisiaPro-ExtraLight.woff") format("woff"),
+       url("/fonts/VisiaPro-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visia Pro";
+  src: url("/fonts/VisiaPro-Light.woff2") format("woff2"),
+       url("/fonts/VisiaPro-Light.woff") format("woff"),
+       url("/fonts/VisiaPro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visia Pro";
+  src: url("/fonts/VisiaPro-Regular.woff2") format("woff2"),
+       url("/fonts/VisiaPro-Regular.woff") format("woff"),
+       url("/fonts/VisiaPro-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visia Pro";
+  src: url("/fonts/VisiaPro-SemiBold.woff2") format("woff2"),
+       url("/fonts/VisiaPro-SemiBold.woff") format("woff"),
+       url("/fonts/VisiaPro-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visia Pro";
+  src: url("/fonts/VisiaPro-Bold.woff2") format("woff2"),
+       url("/fonts/VisiaPro-Bold.woff") format("woff"),
+       url("/fonts/VisiaPro-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visia Pro";
+  src: url("/fonts/VisiaPro-ExtraBold.woff2") format("woff2"),
+       url("/fonts/VisiaPro-ExtraBold.woff") format("woff"),
+       url("/fonts/VisiaPro-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visia Pro";
+  src: url("/fonts/VisiaPro-Heavy.woff2") format("woff2"),
+       url("/fonts/VisiaPro-Heavy.woff") format("woff"),
+       url("/fonts/VisiaPro-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ─── Globals ─── */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  font-family: "Visia Pro", sans-serif;
+  background-color: #fafafa;
+  color: #121212;
+}
+
+::selection {
+  background-color: #d1bfae;
+  color: #121212;
+}

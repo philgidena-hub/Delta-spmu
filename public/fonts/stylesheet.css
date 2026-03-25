@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Visia Pro';
+    src: url('VisiaPro-Regular.eot');
+    src: url('VisiaPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('VisiaPro-Regular.woff2') format('woff2'),
+        url('VisiaPro-Regular.woff') format('woff'),
+        url('VisiaPro-Regular.ttf') format('truetype'),
+        url('VisiaPro-Regular.svg#VisiaPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visia Pro';
+    src: url('VisiaPro-ExtraBoldItalic.eot');
+    src: url('VisiaPro-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('VisiaPro-ExtraBoldItalic.woff2') format('woff2'),
+        url('VisiaPro-ExtraBoldItalic.woff') format('woff'),
+        url('VisiaPro-ExtraBoldItalic.ttf') format('truetype'),
+        url('VisiaPro-ExtraBoldItalic.svg#VisiaPro-ExtraBoldItalic') format('svg');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Visia Pro';
+    src: url('VisiaPro-BoldItalic.eot');
+    src: url('VisiaPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('VisiaPro-BoldItalic.woff2') format('woff2'),
+        url('VisiaPro-BoldItalic.woff') format('woff'),
+        url('VisiaPro-BoldItalic.ttf') format('truetype'),
+        url('VisiaPro-BoldItalic.svg#VisiaPro-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Visia Pro';
+    src: url('VisiaPro-ExtraBold.eot');
+    src: url('VisiaPro-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('VisiaPro-ExtraBold.woff2') format('woff2'),
+        url('VisiaPro-ExtraBold.woff') format('woff'),
+        url('VisiaPro-ExtraBold.ttf') format('truetype'),
+        url('VisiaPro-ExtraBold.svg#VisiaPro-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visia Pro';
+    src: url('VisiaPro-SemiBoldItalic.eot');
+    src: url('VisiaPro-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('VisiaPro-SemiBoldItalic.woff2') format('woff2'),
+        url('VisiaPro-SemiBoldItalic.woff') format('woff'),
+        url('VisiaPro-SemiBoldItalic.ttf') format('truetype'),
+        url('VisiaPro-SemiBoldItalic.svg#VisiaPro-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Visia Pro';
+    src: url('VisiaPro-HeavyItalic.eot');
+    src: url('VisiaPro-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('VisiaPro-HeavyItalic.woff2') format('woff2'),
+        url('VisiaPro-HeavyItalic.woff') format('woff'),
+        url('VisiaPro-HeavyItalic.ttf') format('truetype'),
+        url('VisiaPro-HeavyItalic.svg#VisiaPro-HeavyItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Visia Pro';
+    src: url('VisiaPro-Light.eot');
+    src: url('VisiaPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('VisiaPro-Light.woff2') format('woff2'),
+        url('VisiaPro-Light.woff') format('woff'),
+        url('VisiaPro-Light.ttf') format('truetype'),
+        url('VisiaPro-Light.svg#VisiaPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visia Pro';
+    src: url('VisiaPro-Italic.eot');
+    src: url('VisiaPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('VisiaPro-Italic.woff2') format('woff2'),
+        url('VisiaPro-Italic.woff') format('woff'),
+        url('VisiaPro-Italic.ttf') format('truetype'),
+        url('VisiaPro-Italic.svg#VisiaPro-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Visia Pro';
+    src: url('VisiaPro-SemiBold.eot');
+    src: url('VisiaPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('VisiaPro-SemiBold.woff2') format('woff2'),
+        url('VisiaPro-SemiBold.woff') format('woff'),
+        url('VisiaPro-SemiBold.ttf') format('truetype'),
+        url('VisiaPro-SemiBold.svg#VisiaPro-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visia Pro';
+    src: url('VisiaPro-ExtraLight.eot');
+    src: url('VisiaPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('VisiaPro-ExtraLight.woff2') format('woff2'),
+        url('VisiaPro-ExtraLight.woff') format('woff'),
+        url('VisiaPro-ExtraLight.ttf') format('truetype'),
+        url('VisiaPro-ExtraLight.svg#VisiaPro-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visia Pro';
+    src: url('VisiaPro-Heavy.eot');
+    src: url('VisiaPro-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('VisiaPro-Heavy.woff2') format('woff2'),
+        url('VisiaPro-Heavy.woff') format('woff'),
+        url('VisiaPro-Heavy.ttf') format('truetype'),
+        url('VisiaPro-Heavy.svg#VisiaPro-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visia Pro';
+    src: url('VisiaPro-ExtraLightItalic.eot');
+    src: url('VisiaPro-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('VisiaPro-ExtraLightItalic.woff2') format('woff2'),
+        url('VisiaPro-ExtraLightItalic.woff') format('woff'),
+        url('VisiaPro-ExtraLightItalic.ttf') format('truetype'),
+        url('VisiaPro-ExtraLightItalic.svg#VisiaPro-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Visia Pro';
+    src: url('VisiaPro-Bold.eot');
+    src: url('VisiaPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('VisiaPro-Bold.woff2') format('woff2'),
+        url('VisiaPro-Bold.woff') format('woff'),
+        url('VisiaPro-Bold.ttf') format('truetype'),
+        url('VisiaPro-Bold.svg#VisiaPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Visia Pro';
+    src: url('VisiaPro-LightItalic.eot');
+    src: url('VisiaPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('VisiaPro-LightItalic.woff2') format('woff2'),
+        url('VisiaPro-LightItalic.woff') format('woff'),
+        url('VisiaPro-LightItalic.ttf') format('truetype'),
+        url('VisiaPro-LightItalic.svg#VisiaPro-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+

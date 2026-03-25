@@ -1,0 +1,12 @@
+/* Webfont: Wensley-Bold */@font-face {
+    font-family: 'Wensley';
+    src: url('Wensley-Bold.eot'); /* IE9 Compat Modes */
+    src: url('Wensley-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Wensley-Bold.woff') format('woff'), /* Modern Browsers */
+         url('Wensley-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('Wensley-Bold.svg#Wensley-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
