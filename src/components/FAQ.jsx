@@ -142,7 +142,7 @@ export default function FAQ() {
   };
 
   return (
-    <section className="relative bg-charcoal overflow-hidden py-28 md:py-40">
+    <section id="faq" className="relative bg-charcoal overflow-hidden py-28 md:py-40">
       {/* Subtle decorative accent */}
       <motion.div
         className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-24 bg-gradient-to-b from-transparent via-nude/20 to-transparent"

@@ -6,6 +6,8 @@ const NAV_LINKS = [
   { label: "Programs", href: "#programs" },
   { label: "LMS Portal", href: "#lms" },
   { label: "Admissions", href: "#admissions" },
+  { label: "FAQ", href: "#faq" },
+  { label: "Contact", href: "#contact" },
 ];
 
 export default function Hero() {
@@ -102,7 +104,7 @@ export default function Hero() {
         {/* Mobile Menu */}
         <div
           className={`absolute left-0 top-full w-full overflow-hidden bg-charcoal/95 backdrop-blur-xl transition-all duration-500 md:hidden ${
-            menuOpen ? "max-h-80" : "max-h-0"
+            menuOpen ? "max-h-[28rem]" : "max-h-0"
           }`}
         >
           <ul className="flex flex-col items-center gap-6 py-10">

@@ -67,7 +67,7 @@ export default function Contact() {
     "w-full bg-transparent border-b border-charcoal/10 py-3 font-body text-sm text-charcoal placeholder:text-charcoal/30 focus:border-nude-dark focus:outline-none transition-colors duration-500";
 
   return (
-    <section className="relative bg-alabaster overflow-hidden py-28 md:py-40">
+    <section id="contact" className="relative bg-alabaster overflow-hidden py-28 md:py-40">
       {/* Subtle decorative accent */}
       <motion.div
         className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-24 bg-gradient-to-b from-transparent via-nude/30 to-transparent"
