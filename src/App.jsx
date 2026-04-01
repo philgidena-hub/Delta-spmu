@@ -15,6 +15,8 @@ import Programs from "./components/Programs";
 import Certification from "./components/Certification";
 import Safety from "./components/Safety";
 import Admissions from "./components/Admissions";
+import FAQ from "./components/FAQ";
+import Contact from "./components/Contact";
 import FooterCTA from "./components/FooterCTA";
 
 function App() {
@@ -42,6 +44,8 @@ function App() {
             <Certification />
             <Safety />
             <Admissions />
+            <FAQ />
+            <Contact />
             <FooterCTA />
           </main>
         </SmoothScroll>

@@ -7,10 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        alabaster: "#FAFAFA",
-        charcoal: "#121212",
-        nude: "#D1BFAE",
-        "nude-dark": "#B8A494",
+        alabaster: "#F5F2EC",
+        charcoal: "#1A2F23",
+        nude: "#C9A96E",
+        "nude-dark": "#A8893E",
       },
       fontFamily: {
         heading: ["Wensley", "serif"],

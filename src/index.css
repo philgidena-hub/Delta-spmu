@@ -112,8 +112,8 @@ html {
 body {
   margin: 0;
   font-family: "Visia Pro", sans-serif;
-  background-color: #fafafa;
-  color: #121212;
+  background-color: #F5F2EC;
+  color: #1A2F23;
   cursor: none;
 }
 
@@ -122,6 +122,6 @@ a, button, input, textarea, select, [role="button"] {
 }
 
 ::selection {
-  background-color: #d1bfae;
-  color: #121212;
+  background-color: #C9A96E;
+  color: #1A2F23;
 }
