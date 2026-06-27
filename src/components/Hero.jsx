@@ -350,6 +350,25 @@ export default function Hero() {
               alt="Permanent makeup artist at work"
               className="aspect-[4/5] h-full w-full object-cover"
             />
+
+            {/* Mobile-only CTAs overlaid on the image */}
+            {config.studentPortalLive && (
+              <div className="absolute inset-x-0 bottom-0 flex flex-col items-center gap-3 bg-gradient-to-t from-charcoal/80 via-charcoal/35 to-transparent px-6 pb-7 pt-20 lg:hidden">
+                <a
+                  href={config.coursesUrl}
+                  className="inline-flex w-full max-w-[15rem] items-center justify-center gap-2 rounded-sm bg-terracotta px-6 py-3 font-body text-[13px] font-semibold uppercase tracking-wide text-white shadow-lg transition-colors duration-300 hover:bg-terracotta-dark"
+                >
+                  Enroll Now
+                  <ArrowRight className="h-4 w-4" />
+                </a>
+                <a
+                  href={config.signupUrl}
+                  className="inline-flex w-full max-w-[15rem] items-center justify-center rounded-sm bg-white px-6 py-3 font-body text-[13px] font-semibold uppercase tracking-wide text-charcoal shadow-lg transition-colors duration-300 hover:bg-alabaster"
+                >
+                  Sign Up
+                </a>
+              </div>
+            )}
           </div>
 
           {/* Feature badges — wrap below the portrait on mobile (no overflow),
